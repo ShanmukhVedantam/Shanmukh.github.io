@@ -146,7 +146,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'University at Buffalo - SUNY',
-      degree: 'Master\'s of Science, Computer Science'
+      degree: 'Master\'s of Science, Computer Science',
       from: 'Jan 2021',
       to: 'May 2022',
     },
