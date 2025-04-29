@@ -267,7 +267,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                         googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
-                    {sanitizedConfig.publications.length !== 0 && (
+                    {sanitizedConfig.publications.display && (
                       <PublicationCard
                         loading={loading}
                         publications={sanitizedConfig.publications}
