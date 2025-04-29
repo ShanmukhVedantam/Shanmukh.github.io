@@ -75,7 +75,7 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: '',
-    phone: '3604993724',
+    phone: '+1 (360) 499 3724',
     email: 'shanmukh.ved@gmail.com',
   },
   resume: {
@@ -83,20 +83,52 @@ const CONFIG = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Python',
     'JavaScript',
+    'Angular',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'Vue.js',
+    'jQuery',
+    'Bootstrap',
+    'WebSocket',
+    'Spring Boot',
+    '.NET Core',
+    'Mockito',
+    'JUnit',
+    'TestNG',
+    'Swagger',
+    'OpenAPI',
+    'TypeScript',
+    'SQL',
+    'PL/SQL',
     'PostgreSQL',
+    'MySQL',
+    'Dynamo DB',
+    'C#',
+    'AWS',
+    'API Gateway',
+    'Lambda',
+    'EC2',
+    'ECS',
+    'Fargate',
+    'S3',
+    'RDS',
+    'ElastiCache',
+    'Step Functions',
+    'SQS',
+    'SNS',
+    'IAM',
+    'AWS CDK',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'CodeBuild',
+    'CodeDeploy',
+    'CodePipeline',
+    'CloudWatch',
+    'OAuth2',
+    'JWT',
   ],
   experiences: [
     {
@@ -246,13 +278,13 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 
-  enablePWA: true,
+  // enablePWA: true,
 };
 
 export default CONFIG;
