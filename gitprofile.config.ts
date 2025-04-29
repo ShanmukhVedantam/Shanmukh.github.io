@@ -57,9 +57,9 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'Shanmukh Vedantam',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -70,13 +70,13 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: 'arifszn',
-    dev: 'arifszn',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: '',
+    phone: '3604993724',
+    email: 'shanmukh.ved@gmail.com',
   },
   resume: {
     fileUrl:
@@ -100,40 +100,61 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Amazon',
+      position: 'Software Development Engineer II',
+      from: 'June 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'BNY Melon',
+      position: 'Senior Software Engineer',
+      from: 'Jan 2021',
+      to: 'May 2022',
+      companyLink: '',
+    },
+    {
+      company: 'Cognizant Technology Solutions',
+      position: 'Software Developer',
+      from: 'June 2019',
+      to: 'Dec 2020',
+      companyLink: '',
+    },
+    {
+      company: 'XXX',
+      position: 'Junior Software Developer',
+      from: 'June 2018',
+      to: 'June 2019',
+      companyLink: '',
+    },
+    {
+      company: 'XXX',
+      position: 'Software Engineer Intern',
+      from: 'June 2017',
+      to: 'June 2018',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: 'AWS Solutions Architect - Associate',
+      body: '',
+      year: 'April 2025',
       link: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University at Buffalo - SUNY',
+      degree: 'Master\'s of Science, Computer Science'
+      from: 'Jan 2021',
+      to: 'May 2022',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'JNTU Hyderabad, India',
+      degree: 'Bachelor of Technology, Computer Science',
+      from: 'July 2015',
+      to: 'May 2019',
     },
   ],
   publications: [
@@ -141,15 +162,6 @@ const CONFIG = {
       title: 'Publication Title',
       conferenceName: '',
       journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
       authors: 'John Doe, Jane Smith',
       link: 'https://example.com',
       description:
@@ -175,7 +187,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
