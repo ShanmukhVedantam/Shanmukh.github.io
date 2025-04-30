@@ -113,7 +113,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/121vctwpUz33_NjDEkqRwWAqPhyeU8S2W/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -214,12 +214,6 @@ const CONFIG = {
       degree: 'Master\'s of Science, Computer Science',
       from: 'Jan 2021',
       to: 'May 2022',
-    },
-    {
-      institution: 'JNTU Hyderabad, India',
-      degree: 'Bachelor of Technology, Computer Science',
-      from: 'July 2015',
-      to: 'May 2019',
     },
   ],
   // publications: [
