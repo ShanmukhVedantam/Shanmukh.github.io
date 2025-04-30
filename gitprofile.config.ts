@@ -172,7 +172,7 @@ const CONFIG = {
       name: 'AWS Solutions Architect - Associate',
       body: '',
       year: 'April 2025',
-      link: 'https://example.com',
+      link: 'https://shanmukhvedantam.github.io/documents/AWS-Certified-Solutions-Architect-Associate.pdf',
     },
   ],
   educations: [
