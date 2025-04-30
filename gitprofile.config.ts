@@ -64,6 +64,23 @@ const CONFIG = {
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: '',
         },
+        {
+          title: 'Distributed Pub/Sub Messaging System for News Feeds',
+          description:
+            'Built a Publish-Subscribe messaging system that simulates a news distribution platform. Publishers post news updates under topics like “Sports,” “Technology,” or “Politics,” and subscribers receive only the content relevant to their subscribed topics. The system uses a central broker to manage topic-based message queues and supports both synchronous (pull) and asynchronous (push) message delivery. Designed with scalability in mind, it handles concurrent publishers and subscribers using multithreading. This project demonstrated core distributed systems principles including decoupling, event-driven design, and reliable message delivery.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: '',
+        },
+        {
+          title: 'IoT Data Pipeline with Raspberry Pi and Azure Cloud',
+          description:
+            'Designed and implemented an IoT architecture to collect sensor data from Raspberry Pi devices and transmit it securely to Microsoft Azure Cloud. Utilized MQTT protocol for lightweight messaging and Azure IoT Hub for device-to-cloud communication. The system enabled real-time monitoring and cloud-based analytics of environmental data. Focus areas included device provisioning, secure communication, and scalable cloud integration.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: '',
+        },
+
       ],
     },
   },
@@ -205,17 +222,17 @@ const CONFIG = {
       to: 'May 2019',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  // publications: [
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: '',
+  //     journalName: 'Journal Name',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  // ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
