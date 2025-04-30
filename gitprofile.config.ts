@@ -85,7 +85,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Shanmukh Vedantam',
     description: '',
     imageURL: '',
   },
