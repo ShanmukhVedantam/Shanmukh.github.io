@@ -29,24 +29,40 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'In-App Purchasing Integration',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Led the development of scalable backend systems for in-app purchasing integrations with major platforms like Meta and TikTok, ensuring secure and reliable transaction processing. Built APIs and internal tools that improved developer productivity, automated testing, and system monitoring. Managed cloud infrastructure, automated deployments, and worked closely with cross-functional teams to deliver high-performance, customer-facing solutions. Consistently followed best practices in system design, security, and operational excellence throughout project lifecycles at Amazon.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: 'Modernization of Financial Systems & Cloud Migration',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Worked on a cloud-based system processing 10M+ daily trades across 30+ global markets. The platform handled trade reconciliation, regulatory reporting, and risk checks with 99.95% uptime. Modernized legacy .NET components to Spring Boot microservices on Azure Kubernetes, reducing settlement latency. Implemented event-driven architecture with Kafka to ensure real-time processing while meeting strict SEC/FINRA compliance requirements.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: '',
+        },
+        {
+          title: 'Outage Management System',
+          description:
+            'Enhanced Duke Energy\'s Outage Management System (OMS) to improve outage detection and restoration for 7M+ customers. Upgraded legacy systems to integrate real-time IoT data from smart meters and grid sensors, reducing outage identification time. Implemented predictive analytics to prioritize crew dispatches, cutting average restoration time by 25%. Developed outage visualization tools for field crews using geospatial mapping, improving first-response accuracy.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: '',
+        },
+        {
+          title: 'E-Commerce Platform',
+          description:
+            'Developed and maintained an e-commerce platform serving 200+ local merchants, processing 500+ daily transactions. Migrated from shared hosting to AWS infrastructure, improving system reliability from 92% to 99.5% uptime while implementing core marketplace features.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: '',
         },
       ],
     },
@@ -203,7 +219,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'ShanmukhVedantam', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
