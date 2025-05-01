@@ -59,7 +59,7 @@ const CONFIG = {
         {
           title: 'E-Commerce Platform',
           description:
-            'Developed and maintained an e-commerce platform serving 200+ local merchants, processing 500+ daily transactions. Migrated from shared hosting to AWS infrastructure, improving system reliability from 92% to 99.5% uptime while implementing core marketplace features.',
+            'Developed and maintained an e-commerce platform serving 200+ merchants, processing 500+ daily transactions. Migrated from shared hosting to AWS infrastructure, improving system reliability from 92% to 99.5% uptime while implementing core marketplace features.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: '',
@@ -186,14 +186,14 @@ const CONFIG = {
       companyLink: '',
     },
     {
-      company: 'XXX',
+      company: 'Neiman Marcus',
       position: 'Junior Software Developer',
       from: 'June 2018',
       to: 'June 2019',
       companyLink: '',
     },
     {
-      company: 'XXX',
+      company: 'Pronix IT Solutions',
       position: 'Software Engineer Intern',
       from: 'June 2017',
       to: 'June 2018',
