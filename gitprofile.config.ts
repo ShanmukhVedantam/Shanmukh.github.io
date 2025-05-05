@@ -113,7 +113,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/121vctwpUz33_NjDEkqRwWAqPhyeU8S2W/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1wthy3L3NhznLnW94BcNOoUE88djM5_-2/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -205,7 +205,7 @@ const CONFIG = {
       name: 'AWS Solutions Architect - Associate',
       body: '',
       year: 'April 2025',
-      link: 'https://shanmukhvedantam.github.io/documents/AWS-Certified-Solutions-Architect-Associate.pdf',
+      link: 'https://drive.google.com/file/d/1xt7sVE70R7liNiuj45pBoSUruTQ-EOCy/view?usp=drive_link',
     },
   ],
   educations: [
