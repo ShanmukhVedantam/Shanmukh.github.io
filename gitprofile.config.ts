@@ -38,7 +38,6 @@ const CONFIG = {
             'Led the development of scalable backend systems for in-app purchasing integrations with major platforms like Meta and TikTok, ensuring secure and reliable transaction processing. Built APIs and internal tools that improved developer productivity, automated testing, and system monitoring. Managed cloud infrastructure, automated deployments, and worked closely with cross-functional teams to deliver high-performance, customer-facing solutions. Consistently followed best practices in system design, security, and operational excellence throughout project lifecycles at Amazon.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
         },
         {
           title: 'Modernization of Financial Systems & Cloud Migration',
