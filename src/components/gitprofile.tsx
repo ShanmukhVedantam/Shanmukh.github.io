@@ -212,6 +212,12 @@ const GitProfile = ({ config }: { config: Config }) => {
                       avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
                       resumeFileUrl={sanitizedConfig.resume.fileUrl}
                     />
+                    {sanitizedConfig.skills.length !== 0 && (
+                      <SkillCard
+                        loading={loading}
+                        skills={sanitizedConfig.skills}
+                      />
+                    )}
                     {sanitizedConfig.educations.length !== 0 && (
                       <EducationCard
                         loading={loading}
@@ -234,12 +240,6 @@ const GitProfile = ({ config }: { config: Config }) => {
                 </div>
                 <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
-                    {sanitizedConfig.skills.length !== 0 && (
-                      <SkillCard
-                        loading={loading}
-                        skills={sanitizedConfig.skills}
-                      />
-                    )}
                     {sanitizedConfig.experiences.length !== 0 && (
                       <ExperienceCard
                         loading={loading}
