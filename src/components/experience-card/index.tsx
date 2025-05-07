@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import { SanitizedExperience } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
 
@@ -42,9 +42,6 @@ const ListItem = ({
     )}
   </li>
 );
-
-
-import React, { Fragment, useState } from 'react';
 
 const ExperienceCard = ({
   experiences,
