@@ -112,7 +112,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1wthy3L3NhznLnW94BcNOoUE88djM5_-2/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
