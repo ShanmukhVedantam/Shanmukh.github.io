@@ -32,53 +32,53 @@ const CONFIG = {
       header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Amazon.com Inc',
-          description:
-            'In-App Purchasing Integration',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-        },
-        {
-          title: 'Sodexo',
-          description:
-            'Employee Benefits Portal Modernization',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
-        },
-        {
-          title: 'Cognizant Technology Solutions',
-          description:
-            'Outage Management System',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
-        },
-        {
-          title: 'Neiman Marcus',
-          description:
-            'E-Commerce Platform',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
-        },
-        {
-          title: 'Pronix IT Solutions',
-          description:
-            'HR Management System',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
-        },
-        {
-          title: 'University at Buffalo',
-          description:
-            'Distributed Pub/Sub Messaging System for News Feeds',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
-        },
+        // {
+        //   title: 'Amazon.com Inc',
+        //   description:
+        //     'In-App Purchasing Integration',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        // },
+        // {
+        //   title: 'Sodexo',
+        //   description:
+        //     'Employee Benefits Portal Modernization',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: '',
+        // },
+        // {
+        //   title: 'Cognizant Technology Solutions',
+        //   description:
+        //     'Outage Management System',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: '',
+        // },
+        // {
+        //   title: 'Neiman Marcus',
+        //   description:
+        //     'E-Commerce Platform',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: '',
+        // },
+        // {
+        //   title: 'Pronix IT Solutions',
+        //   description:
+        //     'HR Management System',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: '',
+        // },
+        // {
+        //   title: 'University at Buffalo',
+        //   description:
+        //     'Distributed Pub/Sub Messaging System for News Feeds',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: '',
+        // },
 
       ],
     },
