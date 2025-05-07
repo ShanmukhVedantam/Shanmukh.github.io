@@ -33,48 +33,48 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'In-App Purchasing Integration',
+          title: 'Amazon.com Inc',
           description:
-            'Led the development of scalable backend systems for in-app purchasing integrations with major platforms like Meta and TikTok, ensuring secure and reliable transaction processing. Built APIs and internal tools that improved developer productivity, automated testing, and system monitoring. Managed cloud infrastructure, automated deployments, and worked closely with cross-functional teams to deliver high-performance, customer-facing solutions. Consistently followed best practices in system design, security, and operational excellence throughout project lifecycles at Amazon.',
+            'In-App Purchasing Integration',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
         },
         {
-          title: 'Modernization of Financial Systems & Cloud Migration',
+          title: 'Sodexo',
           description:
-            'Worked on a cloud-based system processing 10M+ daily trades across 30+ global markets. The platform handled trade reconciliation, regulatory reporting, and risk checks with 99.95% uptime. Modernized legacy .NET components to Spring Boot microservices on Azure Kubernetes, reducing settlement latency. Implemented event-driven architecture with Kafka to ensure real-time processing while meeting strict SEC/FINRA compliance requirements.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: '',
-        },
-        {
-          title: 'Outage Management System',
-          description:
-            'Enhanced Duke Energy\'s Outage Management System (OMS) to improve outage detection and restoration for 7M+ customers. Upgraded legacy systems to integrate real-time IoT data from smart meters and grid sensors, reducing outage identification time. Implemented predictive analytics to prioritize crew dispatches, cutting average restoration time by 25%. Developed outage visualization tools for field crews using geospatial mapping, improving first-response accuracy.',
+            'Employee Benefits Portal Modernization',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: '',
         },
         {
-          title: 'E-Commerce Platform',
+          title: 'Cognizant Technology Solutions',
           description:
-            'Developed and maintained an e-commerce platform serving 200+ merchants, processing 500+ daily transactions. Migrated from shared hosting to AWS infrastructure, improving system reliability from 92% to 99.5% uptime while implementing core marketplace features.',
+            'Outage Management System',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: '',
         },
         {
-          title: 'Distributed Pub/Sub Messaging System for News Feeds',
+          title: 'Neiman Marcus',
           description:
-            'Built a Publish-Subscribe messaging system that simulates a news distribution platform. Publishers post news updates under topics like “Sports,” “Technology,” or “Politics,” and subscribers receive only the content relevant to their subscribed topics. The system uses a central broker to manage topic-based message queues and supports both synchronous (pull) and asynchronous (push) message delivery. Designed with scalability in mind, it handles concurrent publishers and subscribers using multithreading. This project demonstrated core distributed systems principles including decoupling, event-driven design, and reliable message delivery.',
+            'E-Commerce Platform',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: '',
         },
         {
-          title: 'IoT Data Pipeline with Raspberry Pi and Azure Cloud',
+          title: 'Pronix IT Solutions',
           description:
-            'Designed and implemented an IoT architecture to collect sensor data from Raspberry Pi devices and transmit it securely to Microsoft Azure Cloud. Utilized MQTT protocol for lightweight messaging and Azure IoT Hub for device-to-cloud communication. The system enabled real-time monitoring and cloud-based analytics of environmental data. Focus areas included device provisioning, secure communication, and scalable cloud integration.',
+            'HR Management System',
+          imageUrl:
+            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          link: '',
+        },
+        {
+          title: 'University at Buffalo',
+          description:
+            'Distributed Pub/Sub Messaging System for News Feeds',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: '',
