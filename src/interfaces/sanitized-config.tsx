@@ -71,10 +71,11 @@ export interface SanitizedResume {
 
 export interface SanitizedExperience {
   company?: string;
-  position?: string;
+  position?: string;``
   from: string;
   to: string;
   companyLink?: string;
+  projects?: string[];
 }
 
 export interface SanitizedCertification {

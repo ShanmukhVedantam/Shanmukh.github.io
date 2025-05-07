@@ -2,31 +2,49 @@ import React, { Fragment } from 'react';
 import { SanitizedExperience } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
 
+type ListItemProps = {
+  time: React.ReactNode;
+  position?: React.ReactNode;
+  company?: React.ReactNode;
+  companyLink?: string;
+  projects?: string[];
+  isExpanded?: boolean;
+  onClick?: () => void;
+};
+
 const ListItem = ({
   time,
   position,
   company,
   companyLink,
-}: {
-  time: React.ReactNode;
-  position?: React.ReactNode;
-  company?: React.ReactNode;
-  companyLink?: string;
-}) => (
-  <li className="mb-5 ml-4">
+  projects,
+  isExpanded,
+  onClick,
+}: ListItemProps) => (
+  <li className="mb-5 ml-4 cursor-pointer" onClick={onClick}>
     <div
       className="absolute w-2 h-2 bg-base-300 rounded-full border border-base-300 mt-1.5"
       style={{ left: '-4.5px' }}
     ></div>
     <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{position}</h3>
-    <div className="mb-4 font-normal">
+    <div className="mb-2 font-normal">
       <a href={companyLink} target="_blank" rel="noreferrer">
         {company}
       </a>
     </div>
+    {isExpanded && projects && (
+      <ul className="ml-4 list-disc text-sm text-base-content text-opacity-80">
+        {projects.map((proj, i) => (
+          <li key={i} className="mb-1">{proj}</li>
+        ))}
+      </ul>
+    )}
   </li>
 );
+
+
+import React, { Fragment, useState } from 'react';
 
 const ExperienceCard = ({
   experiences,
@@ -35,28 +53,27 @@ const ExperienceCard = ({
   experiences: SanitizedExperience[];
   loading: boolean;
 }) => {
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
+  const handleToggle = (index: number) => {
+    setExpandedIndex(prev => (prev === index ? null : index));
+  };
+
   const renderSkeleton = () => {
     const array = [];
     for (let index = 0; index < 2; index++) {
       array.push(
         <ListItem
           key={index}
-          time={skeleton({
-            widthCls: 'w-5/12',
-            heightCls: 'h-4',
-          })}
-          position={skeleton({
-            widthCls: 'w-6/12',
-            heightCls: 'h-4',
-            className: 'my-1.5',
-          })}
+          time={skeleton({ widthCls: 'w-5/12', heightCls: 'h-4' })}
+          position={skeleton({ widthCls: 'w-6/12', heightCls: 'h-4', className: 'my-1.5' })}
           company={skeleton({ widthCls: 'w-6/12', heightCls: 'h-3' })}
         />,
       );
     }
-
     return array;
   };
+
   return (
     <div className="card shadow-lg compact bg-base-100">
       <div className="card-body">
@@ -81,11 +98,10 @@ const ExperienceCard = ({
                     time={`${experience.from} - ${experience.to}`}
                     position={experience.position}
                     company={experience.company}
-                    companyLink={
-                      experience.companyLink
-                        ? experience.companyLink
-                        : undefined
-                    }
+                    companyLink={experience.companyLink}
+                    projects={experience.projects} // must be added in your data
+                    isExpanded={expandedIndex === index}
+                    onClick={() => handleToggle(index)}
                   />
                 ))}
               </Fragment>
@@ -96,5 +112,6 @@ const ExperienceCard = ({
     </div>
   );
 };
+
 
 export default ExperienceCard;

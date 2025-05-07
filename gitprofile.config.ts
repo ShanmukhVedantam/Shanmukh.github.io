@@ -169,6 +169,8 @@ const CONFIG = {
       from: 'June 2022',
       to: 'Present',
       companyLink: '',
+      projects: 'abd',
+
     },
     {
       company: 'BNY Melon',
@@ -176,6 +178,7 @@ const CONFIG = {
       from: 'Jan 2021',
       to: 'May 2022',
       companyLink: '',
+      projects: 'def',
     },
     {
       company: 'Cognizant Technology Solutions',
@@ -183,6 +186,7 @@ const CONFIG = {
       from: 'June 2019',
       to: 'Dec 2020',
       companyLink: '',
+      projects: 'hij',
     },
     {
       company: 'Neiman Marcus',
@@ -190,6 +194,7 @@ const CONFIG = {
       from: 'June 2018',
       to: 'June 2019',
       companyLink: '',
+      projects: 'qwe',
     },
     {
       company: 'Pronix IT Solutions',
@@ -197,6 +202,7 @@ const CONFIG = {
       from: 'June 2017',
       to: 'June 2018',
       companyLink: '',
+      projects: '123',
     },
   ],
   certifications: [
