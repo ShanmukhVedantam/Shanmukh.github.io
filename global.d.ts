@@ -221,6 +221,7 @@ interface Experience {
   from: string;
   to: string;
   companyLink?: string;
+  projects?: string[];
 }
 
 interface Certification {
