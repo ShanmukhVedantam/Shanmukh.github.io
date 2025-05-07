@@ -162,6 +162,7 @@ const CONFIG = {
     'OAuth2',
     'JWT',
   ],
+  aboutMe: 'I am a passionate software engineer with 4+ years of experience. I love working on scalable systems and building cool UIs. Currently exploring AI and cloud platforms.',
   experiences: [
     {
       company: 'Amazon',
