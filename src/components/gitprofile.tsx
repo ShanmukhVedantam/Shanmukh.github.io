@@ -196,7 +196,7 @@ const GitProfile = ({ config }: { config: Config }) => {
               appliedTheme={theme}
             />
             <div className={`p-4 lg:p-10 min-h-full ${BG_COLOR}`}>
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 rounded-box">
                 <div className="col-span-1">
                   <div className="grid grid-cols-1 gap-6">
                     {!sanitizedConfig.themeConfig.disableSwitch && (
@@ -239,7 +239,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     />
                   </div>
                 </div>
-                <div className="lg:col-span-3 col-span-1">
+                <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
                     {sanitizedConfig.aboutMe && (
                       <AboutMe description={sanitizedConfig.aboutMe} 
