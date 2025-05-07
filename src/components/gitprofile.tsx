@@ -240,15 +240,11 @@ const GitProfile = ({ config }: { config: Config }) => {
                   </div>
                 </div>
                 <div className="lg:col-span-2 col-span-1">
-                  <div className="grid grid-cols-1 gap-6">
+                  <div className="flex flex-col gap-6">
                     {sanitizedConfig.aboutMe && (
                       <AboutMe description={sanitizedConfig.aboutMe} 
                       loading={loading} />
                     )}
-                  </div>
-                </div>    
-                <div className="lg:col-span-2 col-span-1">
-                  <div className="grid grid-cols-1 gap-6">
                     {sanitizedConfig.experiences.length !== 0 && (
                       <ExperienceCard
                         loading={loading}
