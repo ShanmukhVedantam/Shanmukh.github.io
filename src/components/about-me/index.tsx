@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AboutMe = ({ description, loading }: { description: string; loading: boolean }) => {
   return (
     <div className="card shadow-lg compact bg-base-100">
