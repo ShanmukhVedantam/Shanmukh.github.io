@@ -27,14 +27,14 @@ const ListItem = ({
       style={{ left: '-4.5px' }}
     ></div>
     <div className="my-0.5 text-xs">{time}</div>
-    <h3 className="font-semibold">{position}</h3>
-    <div className="mb-2 font-normal">
+    <h3 className="font-semibold text-lg">{position}</h3>
+    <div className="mb-2 font-medium text-base">
       <a href={companyLink} target="_blank" rel="noreferrer">
         {company}
       </a>
     </div>
     {isExpanded && projects && (
-      <ul className="ml-4 list-disc text-sm text-base-content text-opacity-80">
+      <ul className="ml-4 list-disc text-base text-base-content text-opacity-90">
         {projects.map((proj, i) => (
           <li key={i} className="mb-1">{proj}</li>
         ))}
