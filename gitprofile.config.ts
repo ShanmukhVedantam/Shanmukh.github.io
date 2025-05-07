@@ -169,8 +169,9 @@ const CONFIG = {
       from: 'June 2022',
       to: 'Present',
       companyLink: '',
-      projects: 'abd',
-
+      projects: ['Worked in Amazon',
+      'Developed API',
+      'Deployed on cloud'],
     },
     {
       company: 'BNY Melon',
@@ -178,7 +179,9 @@ const CONFIG = {
       from: 'Jan 2021',
       to: 'May 2022',
       companyLink: '',
-      projects: 'def',
+      projects: ['Worked in Amazon',
+      'Developed API',
+      'Deployed on cloud'],
     },
     {
       company: 'Cognizant Technology Solutions',
@@ -186,7 +189,9 @@ const CONFIG = {
       from: 'June 2019',
       to: 'Dec 2020',
       companyLink: '',
-      projects: 'hij',
+      projects: ['Worked in Amazon',
+      'Developed API',
+      'Deployed on cloud'],
     },
     {
       company: 'Neiman Marcus',
@@ -194,7 +199,9 @@ const CONFIG = {
       from: 'June 2018',
       to: 'June 2019',
       companyLink: '',
-      projects: 'qwe',
+      projects: ['Worked in Amazon',
+      'Developed API',
+      'Deployed on cloud'],
     },
     {
       company: 'Pronix IT Solutions',
@@ -202,7 +209,9 @@ const CONFIG = {
       from: 'June 2017',
       to: 'June 2018',
       companyLink: '',
-      projects: '123',
+      projects: ['Worked in Amazon',
+      'Developed API',
+      'Deployed on cloud'],
     },
   ],
   certifications: [
