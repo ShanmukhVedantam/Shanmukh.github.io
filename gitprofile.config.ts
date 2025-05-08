@@ -126,7 +126,6 @@ const CONFIG = {
     'Bootstrap',
     'WebSocket',
     'Spring Boot',
-    '.NET Core',
     'Mockito',
     'JUnit',
     'TestNG',
