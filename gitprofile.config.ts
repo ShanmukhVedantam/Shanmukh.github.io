@@ -162,7 +162,7 @@ const CONFIG = {
     'OAuth2',
     'JWT',
   ],
-  aboutMe: 'I am a passionate software engineer with 4+ years of experience. I love working on scalable systems and building cool UIs. Currently exploring AI and cloud platforms.',
+  aboutMe: 'I am a seasoned Java Full Stack Developer with over 8 years of experience designing and building scalable web applications. I/’ve had the opportunity to work at a FAANG company, where I contributed to high-impact, customer-facing projects. My core strengths lie in backend development with Java and Spring Boot, as well as creating responsive frontends using Angular. I\'m also proficient in AWS cloud services, leveraging tools like Lambda, S3, and CloudFormation to build and deploy robust applications. Throughout my career, I\'ve led feature development across the entire stack, with a strong emphasis on clean code and performance optimization. I enjoy solving complex problems and delivering solutions that make a tangible difference. I stay updated with emerging tech and continuously strive to grow as an engineer. Whether it\'s refining backend APIs or enhancing frontend UX, I take pride in delivering high-quality, maintainable software.',
   experiences: [
     {
       company: 'Amazon',
@@ -175,7 +175,7 @@ const CONFIG = {
       'Deployed on cloud'],
     },
     {
-      company: 'BNY Melon',
+      company: 'Sodexo',
       position: 'Senior Software Engineer',
       from: 'Jan 2021',
       to: 'May 2022',
