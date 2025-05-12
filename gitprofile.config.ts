@@ -187,7 +187,7 @@ const CONFIG = {
     },
     {
       company: 'Cognizant Technology Solutions',
-      position: 'Software Developer',
+      position: 'Full Stack Engineer',
       from: 'Sep 2019',
       to: 'Dec 2020',
       companyLink: '',
