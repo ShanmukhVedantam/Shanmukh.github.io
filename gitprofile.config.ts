@@ -89,7 +89,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'Shanmukh Vedantam',
+    linkedin: 'shanmukh-vedantam',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -108,7 +108,7 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '+1 (360) 499 3724',
-    email: 'shanmukh.ved@gmail.com',
+    email: 'shanmukh.codes@gmail.com',
   },
   resume: {
     fileUrl:
@@ -167,7 +167,7 @@ const CONFIG = {
       company: 'Amazon',
       position: 'Software Development Engineer II',
       from: 'June 2022',
-      to: 'Present',
+      to: 'Apr 2025',
       companyLink: '',
       projects: ['Developed React.js applications with Redux state management and React Router for dynamic client-side routing in enterprise admin portals',
       'Built Java/Spring Boot microservices following hexagonal architecture, implementing OAuth2 security and Swagger API documentation',
@@ -188,7 +188,7 @@ const CONFIG = {
     {
       company: 'Cognizant Technology Solutions',
       position: 'Software Developer',
-      from: 'June 2019',
+      from: 'Sep 2019',
       to: 'Dec 2020',
       companyLink: '',
       projects: ['Developed Angular 10+ interfaces with Bootstrap for responsive design and JWT-based authentication flows',
@@ -199,8 +199,8 @@ const CONFIG = {
     {
       company: 'Neiman Marcus',
       position: 'Junior Software Developer',
-      from: 'June 2018',
-      to: 'June 2019',
+      from: 'July 2018',
+      to: 'Aug 2019',
       companyLink: '',
       projects: ['Created jQuery/Bootstrap e-commerce interfaces with AJAX integrations to backend services',
       'Developed PHP/CodeIgniter controllers with MySQL optimization for high-traffic product catalogs',
@@ -210,7 +210,7 @@ const CONFIG = {
     {
       company: 'Pronix IT Solutions',
       position: 'Software Engineer Intern',
-      from: 'June 2017',
+      from: 'June 2016',
       to: 'June 2018',
       companyLink: '',
       projects: ['Modernized legacy systems to Spring MVC with Thymeleaf templates and JavaScript validation',
